@@ -62,7 +62,7 @@ const AuthForm = () => {
           className="authInput authSubmit"
           value={newAccount ? "계정 만들기" : "로그인"}
         />
-        {error && <span className="authError">{error}</span>}
+        {error && <p className="authError">{error}</p>}
         <span onClick={toggleAccount} className="authSwitch">
         {newAccount ? "로그인" : "계정 만들기"}
       </span>
@@ -72,3 +72,5 @@ const AuthForm = () => {
   );
 };
 export default AuthForm;
+
+
