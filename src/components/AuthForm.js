@@ -41,7 +41,7 @@ const AuthForm = () => {
       <form onSubmit={onSubmit} className="container">
         <input
           name="email"
-          type="email"
+          type=""
           placeholder="이메일"
           required
           value={email}
