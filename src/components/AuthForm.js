@@ -42,7 +42,7 @@ const AuthForm = () => {
         <input
           name="email"
           type=""
-          placeholder="이메일"
+          placeholder="이름"
           required
           value={email}
           onChange={onChange}

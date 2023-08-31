@@ -22,7 +22,7 @@ const Auth = () => {
       <AuthForm />
       <div className="authBtns">
         <button onClick={onSocialClick} name="google" className="authBtn">
-          Continue with Google <FontAwesomeIcon icon={faGoogle} />
+          구글로 로그인 하기 <FontAwesomeIcon icon={faGoogle} />
         </button>
       </div>
     </div>
