@@ -18,13 +18,13 @@ const Auth = () => {
   return (
     <div className="authContainer">
       <img className="imga"/>
-      <h1 style={{textAlign:"center", marginBottom:10, color:"white"}}>청강학원</h1>
+      <h1 style={{textAlign:"center",  color:"white"}}>청강학원</h1>
       <AuthForm />
-      <div className="authBtns">
+      {/*<div className="authBtns">
         <button onClick={onSocialClick} name="google" className="authBtn">
           구글로 로그인 하기 <FontAwesomeIcon icon={faGoogle} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

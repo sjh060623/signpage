@@ -95,6 +95,7 @@ span:hover {
   padding: 60px 30px;
   width: 100%;
   max-width: 340px;
+  margin-bottom: 300px;
   display: flex;
   flex-direction: column;
 }
