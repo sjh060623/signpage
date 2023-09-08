@@ -19,7 +19,6 @@ const Auth = () => {
     <div className="authContainer">
       <img className="imga"/>
       <h1 style={{textAlign:"center",  color:"white"}}>청강학원</h1>
-      <h1 style={{textAlign:"center", marginTop: 10, marginBottom: 10}}>{"서버점검중 (7시10분 ~ 8시10분)"}</h1>
 
       <AuthForm />
       {/*<div className="authBtns">
