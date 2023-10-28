@@ -30,9 +30,9 @@ border-width: 0;
 }
 
 @font-face {
-  font-family: "bmf";
-  src: url("./imgs/font.otf") format("truetype");
-  font-weight: normal;
+  font-family: 'bmf';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -63,7 +63,6 @@ h3 {
 }
 
   body {
-    background-color: rgb(28 25 23);
     font-family: bmf;
 
     font-size: 14px;
