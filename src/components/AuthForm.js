@@ -50,7 +50,7 @@ const AuthForm = () => {
         />
         <input
           name="password"
-          type=""
+          type="password"
           placeholder="비밀번호"
           required
           value={password}

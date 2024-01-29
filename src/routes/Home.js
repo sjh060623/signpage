@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <div className="ddd">
       <button className="logout" onClick={onLogOutClick}>로그아웃</button>
-      <iframe src="https://cgmainpage.vercel.app" allowFullScreen />
+      <iframe title="chunggang" src="https://chunggang.com" allowFullScreen />
       </div>
     </>
   );
