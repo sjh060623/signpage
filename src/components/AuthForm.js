@@ -64,12 +64,12 @@ const AuthForm = () => {
         />
         {error && <p className="authError">{error}</p>}
         {/*
-
-  */}
-
 <span onClick={toggleAccount} className="authSwitch">
         {newAccount ? "로그인" : "계정 만들기"}
       </span>
+  */}
+
+
       </form>
 
     </>
