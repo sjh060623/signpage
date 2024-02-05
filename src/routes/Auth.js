@@ -17,7 +17,7 @@ const Auth = () => {
   };
   return (
     <div className="authContainer">
-      <h1 style={{textAlign:"center", marginTop:300,  color:"black"}}>청강학원</h1>
+      <h1 style={{textAlign:"center", marginTop:300,  color:"black"}}>계정생성 전용 페이지</h1>
 
       <AuthForm />
       {/*<div className="authBtns">

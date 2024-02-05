@@ -6,7 +6,7 @@ const inputStyles = {};
 const AuthForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [newAccount, setNewAccount] = useState(false);
+  const [newAccount, setNewAccount] = useState(true);
   const [error, setError] = useState("");
   const onChange = (event) => {
     const {
@@ -63,13 +63,6 @@ const AuthForm = () => {
           value={newAccount ? "계정 만들기" : "로그인"}
         />
         {error && <p className="authError">{error}</p>}
-        {/*
-<span onClick={toggleAccount} className="authSwitch">
-        {newAccount ? "로그인" : "계정 만들기"}
-      </span>
-  */}
-
-
       </form>
 
     </>
